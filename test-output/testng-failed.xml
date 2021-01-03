@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.RestApiTestCases">
+      <class name="testCases.Read_Single_Local_Product_Validate_DB">
         <methods>
-          <include name="get_All_Local_Products"/>
+          <include name="read_Single_Local_Product"/>
         </methods>
-      </class> <!-- testCases.RestApiTestCases -->
+      </class> <!-- testCases.Read_Single_Local_Product_Validate_DB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
